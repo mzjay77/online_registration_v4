@@ -1,10 +1,9 @@
 * {
     font-family: 'Slabo', serif;
 }
-
 #wrapper,
 #top-banner {
-    width: 70%;
+    width: 30%;
     margin: 0 auto;
 }
 .input,
@@ -12,22 +11,22 @@
 .user_state {
     color: grey;
 }
-select,
+/* select,
 button {
     font-family: 'Slabo', serif;
     border: 0;
     border-radius: 6px;
-}
+} */
 header p {
     font-size: .9em;
     padding-bottom: 30px;
     border-bottom: 5px solid #0f59c2;
     margin-bottom: 3px;
 }
-header {
+header,
+#top-banner {
     text-align: center;
 }
-
 h1 {
     font-size: 1em;
     color: black;
@@ -35,10 +34,8 @@ h1 {
     padding: 10px 0;
     text-transform: uppercase;
 }
-
 #top-banner {
     background: mediumslateblue;
-    text-align: center;
 }
 legend {
     font-weight: bold;
@@ -54,7 +51,6 @@ legend {
 #main-header {
     border-bottom: 2px solid black;
 }
-
 fieldset {
     border: none;
 }
@@ -63,80 +59,47 @@ fieldset {
     border-bottom: 2px solid mediumslateblue;
     padding-bottom: 25px;
 }
-input:required:invalid:focus {
-    box-shadow: 0 0 0 2px mediumslateblue;
-}
 input[type="text"],
 input[type="email"],
 input[type="tel"]{
-    background-color: #EFF0F1;
-    width: 100%;
-    padding: 15px 25px 15px 10px;
-    margin: 10px 0;
+    width: 60%;
+    padding: 10px 15px 10px 10px;
+    margin: 5px 0;
     color:#555;
-    box-sizing: border-box;
-    transition: background-color .3s ease;
 }
-input:required:invalid:focus {
-    box-shadow: 0 0 0 2px blueviolet;
-}
-input:focus,
-textarea:focus {
-	box-shadow: 0 0 0 2px #0f59c2;
-	transition: box-shadow .2s ease;
-}
-
 label {
-	font-size: .85em;
+	font-size: 1em;
 	padding: 5px 0;
 	color: #758490;
 }
-
 input::-webkit-input-placeholder {
 	text-align: right;
 	font-style: italic;
-	font-size: .7em;
-	padding: 2px;
+	font-size: .8em;
+	padding: 3px;
 }
-
-input::-moz-placeholder {
-	text-align: right;
-	font-style: italic;
-	font-size: .7em;
-
-}
-
-input:-ms-input-placeholder {
-	text-align: right;
-	font-style: italic;
-	font-size: .7em;
-}
-
 select {
-	width: 100%;
-	height: 3.5em;
+	height: 2em;
 	background: #EFF0F1;
 	font-size: .8em;
-	margin: 10px 0;
 }
-
-label[for="zip"] {
+/* label[for="zip"] {
 	display: block;
-}
-
-#zip {
-	width: 150px;
-}
-
-fieldset #newsletter {
-	margin: -11.5px;
-}
-
+} */
+/* #zip {
+	width: 100px;
+} */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+background-color : #d1d1d1; 
+  }
+label,
 input[type="radio"],
 input[type="checkbox"] {
-	margin: 10px 10px 0 0px;
+margin: 10px 10px 0 0px;
 }
-
 textarea {
 	background: #EFF0F1;
 	width: 100%;
@@ -148,43 +111,36 @@ textarea {
 	box-sizing: border-box;
 	transition: box-shadow .3s ease;
 }
-
 button {
 	background-color: #0f59c2;
 	color: white;
 	width: 100%;
 	padding: 20px 0;
 }
-
 footer {
 	font-size: .8em;
 	font-style: italic;
 	text-align: center;
 }
-
-/*Media Queries*/
+	/* Media Queries */
 @media screen and (min-width:768px) {
-	#top-banner {
-		width: 100%;
-	}
-	
-	#wrapper {
-		width: 550px;
-	}
-	
-	#contact label {
-		width: 150px;
-		display: inline-block;
-	}
-	
-	#contact input,
-	#contact select {
-		display: inline-block;
-		width: 400px;
-		margin-left: -10px;
-	}
-	
-	#zip {
-		width: 150px !important;
-	}
+#top-banner {
+	width: 100%;
 }
+#wrapper {
+	width: 550px;
+}
+#contact label {
+	width: 150px;
+	display: inline-block;
+}	    
+#contact input {
+	display: inline-block;
+	width: 400px;
+	margin-left: -10px;
+}	    
+#zip {
+	width: 150px !important;
+}
+	
+}		
