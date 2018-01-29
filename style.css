@@ -3,7 +3,7 @@
 }
 #wrapper,
 #top-banner {
-    width: 30%;
+    width: 95%;
     margin: 0 auto;
 }
 .input,
@@ -123,9 +123,12 @@ footer {
 	text-align: center;
 }
 	/* Media Queries */
-@media screen and (min-width:768px) {
+@media only screen and (min-width:768px) {
 #top-banner {
 	width: 100%;
+}
+#div {
+	overflow: auto;
 }
 #wrapper {
 	width: 550px;
@@ -133,12 +136,10 @@ footer {
 #contact label {
 	width: 150px;
 	display: inline-block;
-}	    
+}	    
 #contact input {
 	display: inline-block;
-	width: 400px;
-	margin-left: -10px;
-}	    
+}	    
 #zip {
 	width: 150px !important;
 }
