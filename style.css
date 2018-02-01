@@ -1,147 +1,137 @@
 * {
-    font-family: 'Slabo', serif;
-}
-#wrapper,
-#top-banner {
-    width: 95%;
-    margin: 0 auto;
-}
-.input,
-.textarea,
-.user_state {
-    color: grey;
-}
-/* select,
-button {
-    font-family: 'Slabo', serif;
-    border: 0;
-    border-radius: 6px;
-} */
-header p {
-    font-size: .9em;
-    padding-bottom: 30px;
-    border-bottom: 5px solid #0f59c2;
-    margin-bottom: 3px;
-}
-header,
-#top-banner {
-    text-align: center;
-}
-h1 {
-    font-size: 1em;
-    color: black;
-    margin-top: 0;
-    padding: 10px 0;
-    text-transform: uppercase;
-}
-#top-banner {
-    background: mediumslateblue;
-}
-legend {
-    font-weight: bold;
-    padding: 25px 0;
-    margin-left: -10px;
-}
-h2,
-legend {
-    font-weight: bold;
-    color: mediumslateblue;
-    margin-left: 10px;
-}
-#main-header {
-    border-bottom: 2px solid black;
-}
-fieldset {
-    border: none;
-}
-#contact {
-    margin: 0;
-    border-bottom: 2px solid mediumslateblue;
-    padding-bottom: 25px;
-}
-input[type="text"],
-input[type="email"],
-input[type="tel"]{
-    width: 60%;
-    padding: 10px 15px 10px 10px;
-    margin: 5px 0;
-    color:#555;
-}
-label {
+	font-family: "Slabo", serif;
+	box-sizing: border-box;
+  }
+  #wrapper {
+	width: 95%;
+	margin: 0 auto;
+  }
+  .input,
+  .textarea,
+  .user_state {
+	color: grey;
+  }
+  /* select,
+  button {
+	  font-family: 'Slabo', serif;
+	  border: 0;
+	  border-radius: 6px;
+  } */
+  header p {
+	font-size: 0.9em;
+	padding-bottom: 30px;
+	border-bottom: 5px solid #0f59c2;
+	margin-bottom: 3px;
+  }
+  header,
+  #top-banner {
+	text-align: center;
+  }
+  h1 {
+	font-size: 1em;
+	color: black;
+	margin-top: 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+  }
+  #top-banner {
+	background: mediumslateblue;
+	width: 95%;
+	margin: 0 auto;
+  }
+  legend {
+	font-weight: bold;
+	padding: 25px 0;
+	margin-left: -10px;
+  }
+  h2,
+  legend {
+	font-weight: bold;
+	color: mediumslateblue;
+	margin-left: 10px;
+  }
+  #main-header {
+	border-bottom: 2px solid black;
+  }
+  fieldset {
+	border: none;
+  }
+  #contact {
+	margin: 0;
+	border-bottom: 2px solid mediumslateblue;
+	padding-bottom: 25px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+	width: 60%;
+	padding: 10px 15px 10px 10px;
+	margin: 5px 0;
+	color: #555;
+  }
+  label {
 	font-size: 1em;
 	padding: 5px 0;
 	color: #758490;
-}
-input::-webkit-input-placeholder {
+	display: inline-block;
+  }
+  input::-webkit-input-placeholder {
 	text-align: right;
 	font-style: italic;
-	font-size: .8em;
+	font-size: 0.8em;
 	padding: 3px;
-}
-select {
-	height: 2em;
-	background: #EFF0F1;
-	font-size: .8em;
-}
-/* label[for="zip"] {
-	display: block;
-} */
-/* #zip {
-	width: 100px;
-} */
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-background-color : #d1d1d1; 
   }
-label,
-input[type="radio"],
-input[type="checkbox"] {
-margin: 10px 10px 0 0px;
-}
-textarea {
-	background: #EFF0F1;
+  select {
+	height: 2em;
+	background: #eff0f1;
+	font-size: 0.8em;
+  }
+   #zip {
+	  width: 100px;
+  } 
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+	background-color: #d1d1d1;
+  }
+  label,
+  input[type="radio"],
+  input[type="checkbox"] {
+	margin: 10px 10px 0 0px;
+  }
+  textarea {
+	background: #eff0f1;
 	width: 100%;
 	margin: 10px 0 20px;
 	height: 6em;
 	color: #555;
-	font-size: .9em;
+	font-size: 0.9em;
 	padding: 10px;
 	box-sizing: border-box;
-	transition: box-shadow .3s ease;
-}
-button {
+  }
+  button {
 	background-color: #0f59c2;
 	color: white;
 	width: 100%;
 	padding: 20px 0;
-}
-footer {
-	font-size: .8em;
+  }
+  footer {
+	font-size: 0.8em;
 	font-style: italic;
 	text-align: center;
-}
-	/* Media Queries */
-@media only screen and (min-width:768px) {
-#top-banner {
-	width: 100%;
-}
-#div {
-	overflow: auto;
-}
-#wrapper {
-	width: 550px;
-}
-#contact label {
-	width: 150px;
-	display: inline-block;
-}	    
-#contact input {
-	display: inline-block;
-}	    
-#zip {
-	width: 150px !important;
-}
-	
-}		
+  }
+  /* Media Queries */
+  @media (min-width: 768px) {
+	#top-banner {
+	  width: 100%;
+	}
+	#wrapper {
+	  width: 75%;
+	  margin:  auto;
+	}
+	#contact label {
+	  width: 150px;
+	}
+  }
+  
