@@ -109,6 +109,7 @@
 	font-size: 0.9em;
 	padding: 10px;
 	box-sizing: border-box;
+	transition: box-shadow 0.3s ease;
   }
   button {
 	background-color: #0f59c2;
@@ -127,7 +128,7 @@
 	  width: 100%;
 	}
 	#wrapper {
-	  width: 75%;
+	  width: 550px;
 	  margin:  auto;
 	}
 	#contact label {
